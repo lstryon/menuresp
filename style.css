@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+}
+
+li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:600px) {
+    header{
+       
+    }
+
+    #logo{
+        float: none;
+        text-align: center;
+    }
+
+    #menu{
+        float: none;
+        text-align: center;
+        background-color: rgb(199, 241, 115);
+        
+    }
+
+    li{
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header{
+       
+    }
+
+    #logo{
+        float: none;
+        text-align: center;
+    }
+
+    #menu{
+        float: none;
+        text-align: center;
+        background-color: rgb(247, 149, 206);
+        
+    }
+
+    li{
+        display: block;
+        margin-top: 10px;
+    }
+}
+}
